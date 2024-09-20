@@ -1,0 +1,11 @@
+.container-custom1{
+    color: rgb(10, 11, 75);
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.Row1, .Row2, .Row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
