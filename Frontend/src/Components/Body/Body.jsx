@@ -17,7 +17,7 @@ export default function Hero() {
             <h4 className='text-white' style={{ marginTop: "40px" }}>Bëhuni pjesë e platformës sonë.</h4>
         </Col>
         <Col>
-            <img src={eye} alt="iCan Logo" width="360" height="350"className="Logo"/>
+            <img src={eye} alt="iCan Logo" width="360" height="350"className="Logo" style={{ marginTop: "-80px" }}/>
         </Col>
         </Row>
     </Container>

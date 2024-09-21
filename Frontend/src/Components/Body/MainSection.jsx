@@ -9,15 +9,16 @@ import Foto2 from '../../images/5.jpg';
 import Foto3 from '../../images/3.jpg';
 
 export default function MainSection() {
+    
     return (
         <div className='w-100 ml-10 mr-10 container-custom1'>
     <Container>
         <Row className='Row1'>
         <Col>
-        <img src={Foto1} alt="iCan! Ne jemi këtu për ty." style={{ borderRadius: '5%' }} width="360" height="350"className="Foto1"/>
+        <img src={Foto1} alt="iCan! Ne jemi këtu për ty." style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 9)',borderRadius: '5%' }} width="360" height="350"className="Foto1"/>
         </Col>
         <Col>
-            <h1 style={{ fontWeight: "bold" }}>Cfarë është iCan?</h1>
+            <h1 style={{ fontWeight: "bold" }}>Çfarë është iCan?</h1>
             <p>Prezantojme iCan website me standartet e aksesit
                 për të verbrit dhe atyre që kanë probleme me shikimin
                 në përdorimin e opsioneve si lajme dhe libra audio.</p>
@@ -50,13 +51,13 @@ export default function MainSection() {
                 <Button variant="success">Bashkohu me miqtë</Button>
         </Col>
         <Col>
-            <img src={Foto2} alt="Cdo gjë shqip.Bëhu anëtarë." style={{ borderRadius: '5%' }} width="360" height="350"className="Foto2"/>
+            <img src={Foto2} alt="Cdo gjë shqip.Bëhu anëtarë." style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 9)', borderRadius: '5%', marginLeft: "30%"}} width="360" height="350"className="Foto2"/>
         </Col>
         </Row>
 
         <Row className='Row3'>
         <Col>
-        <img src={Foto3} alt="Tashmë pjesë e inovacionit.Bashkohu me ne!" style={{ borderRadius: '5%' }} width="360" height="350" className="Foto3"/>
+        <img src={Foto3} alt="Tashmë pjesë e inovacionit.Bashkohu me ne!" style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 9)',borderRadius: '5%' }} width="360" height="350" className="Foto3"/>
         </Col>
         <Col>
             <h1 style={{ fontWeight: "bold" }}>Një partner, një zgjidhje</h1>

@@ -2,7 +2,7 @@
     padding-top: 60px;
     text-align: center;
 }
-
-.element{
-    background: radial-gradient(circle, rgba(39,42,179,1) 0%, rgba(0,44,102,1) 100%);
+.logo{
+    margin-bottom: 70%;
+    margin-top: -50%;
 }
