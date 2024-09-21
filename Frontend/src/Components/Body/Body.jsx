@@ -6,6 +6,7 @@ import eye from '../../images/eye.png';
 import './Body.css';
 
 export default function Hero() {
+        
     return (
         <div className='w-100 ml-10 mr-10 container-custom'>
     <Container>

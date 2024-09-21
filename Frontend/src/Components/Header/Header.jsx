@@ -4,10 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import iCanLogo from '../../images/iCanLogo.png';
-import { Link } from 'react-router-dom';
 import './Header.css';
 
 function TopNav() {
+
   return (
     <Navbar expand="lg" className="w-100 ml-10 mr-10 navbar-custom">
       <Container fluid>
@@ -28,7 +28,6 @@ function TopNav() {
               <NavDropdown.Item href="#action4" className="text-white">
                 Benefitet e iCan
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#action5" className="text-white">
                 Një partner, një zgjidhje
               </NavDropdown.Item>
@@ -36,10 +35,7 @@ function TopNav() {
             <Nav.Link href="#action2" style={{ marginRight: '20px' }}>
               Përdoruesit
             </Nav.Link>
-             {/* Use Link from react-router-dom for Libra Audio */}
-            <Link to="/audiobooks" className="nav-link" style={{ marginRight: '20px' }}>
-              Libra Audio
-            </Link>
+            <Nav.Link href="#">Libra Audio</Nav.Link>
             <Nav.Link href="#">Bëhu partner me ne</Nav.Link>
           </Nav>
           <Nav className="ms-auto ml-50" style={{ marginRight: '60px' }}>

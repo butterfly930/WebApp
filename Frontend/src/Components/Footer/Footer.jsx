@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap"
 export default function Footer() {
 
 const boxShadowStyle = {
-    boxShadow: '0 0 200px', 
+    boxShadow: '0 0 100px', 
     padding: '0', 
   };
   return (
