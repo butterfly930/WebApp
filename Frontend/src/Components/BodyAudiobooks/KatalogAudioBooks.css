@@ -1,0 +1,23 @@
+.buttons-group {
+    display: flex;
+    gap: 20%;
+    padding-top: 60px;
+    margin-left: 25%;
+}
+#Audiolibra {
+    font-weight: 700;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #f3f5ebbd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
